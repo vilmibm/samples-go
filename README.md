@@ -69,7 +69,8 @@ Workflow Definition and an Activity Definition using API Key to authenticate wit
 
 - [**Cron Workflow**](./cron): Demonstrates a recurring Workflow
   Execution that occurs according to a cron schedule. This sample showcases the `HasLastCompletionResult`
-  and `GetLastCompletionResult` APIs which are used to pass information between executions. Additional
+  and `GetLastCompletionResult` APIs which are used to pass information between executions. **Note that we
+  recommend using Schedules instead of Cron Jobs.** Additional
   documentation: [What is a Temporal Cron Job?](https://docs.temporal.io/docs/content/what-is-a-temporal-cron-job).
 
 - [**Schedule Workflow**](./schedule): Demonstrates a recurring Workflow
